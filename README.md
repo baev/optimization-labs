@@ -46,3 +46,10 @@ F_{n}: 7540113804746346429
 
 **Вариант 2**
 
+<table>
+<tr><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>-1</td><td>3</td><td>0</td><td>2</td><td>1</td></tr>
+<tr><td>2</td><td>4</td><td>0</td><td>1</td><td>0</td><td>2</td><td>-1</td><td>1</td><td>2</td><td>3</td></tr>
+<tr><td>3</td><td>5</td><td>0</td><td>0</td><td>1</td><td>1</td><td>-1</td><td>2</td><td>1</td><td>0</td></tr>
+<tr><td></td><td>10</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>3</td><td>5</td><td>4</td></tr>
+</table>
+
