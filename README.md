@@ -53,12 +53,7 @@ F_{n}: 7540113804746346429
 <tr><td></td><td>10</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>3</td><td>5</td><td>4</td></tr>
 </table>
 
-<table>
-<tr><td>5</td><td>6/5</td><td>2/5</td><td>1/5</td><td>0</td><td>0</td><td>1</td><td>1/5</td><td>6/5</td><td>1</td></tr>
-<tr><td>4</td><td>13/5</td><td>1/5</td><td>3/5</td><td>0</td><td>1</td><td>0</td><td>3/5</td><td>8/5</td><td>2</td></tr>
-<tr><td>3</td><td>18/5</td><td>1/5</td><td>-2/5</td><td>1</td><td>0</td><td>0</td><td>8/5</td><td>3/5</td><td>-1</td></tr>
-<td>  </td><td>18/5</td><td>-4/5</td><td>-7/5</td><td>0</td><td>0</td><td>0</td><td>8/5</td><td>3/5</td><td>-1</td>
-</table>
+**k = 4, s = 2**
 
 <table>
 <tr><td>5</td><td>6/5</td><td>2/5</td><td>1/5</td><td>0</td><td>0</td><td>1</td><td>1/5</td><td>6/5</td><td>1</td></tr>
@@ -66,6 +61,17 @@ F_{n}: 7540113804746346429
 <tr><td>3</td><td>18/5</td><td>1/5</td><td>-2/5</td><td>1</td><td>0</td><td>0</td><td>8/5</td><td>3/5</td><td>-1</td></tr>
 <td>  </td><td>18/5</td><td>-4/5</td><td>-7/5</td><td>0</td><td>0</td><td>0</td><td>8/5</td><td>3/5</td><td>-1</td>
 </table>
+
+**k = 5, s = 1**
+
+<table>
+<tr><td>5</td><td>6/5</td><td>2/5</td><td>1/5</td><td>0</td><td>0</td><td>1</td><td>1/5</td><td>6/5</td><td>1</td></tr>
+<tr><td>4</td><td>13/5</td><td>1/5</td><td>3/5</td><td>0</td><td>1</td><td>0</td><td>3/5</td><td>8/5</td><td>2</td></tr>
+<tr><td>3</td><td>18/5</td><td>1/5</td><td>-2/5</td><td>1</td><td>0</td><td>0</td><td>8/5</td><td>3/5</td><td>-1</td></tr>
+<td>  </td><td>18/5</td><td>-4/5</td><td>-7/5</td><td>0</td><td>0</td><td>0</td><td>8/5</td><td>3/5</td><td>-1</td>
+</table>
+
+**k = 6, s = 3**
 
 <table>
 <tr><td>5</td><td>3/4</td><td>3/8</td><td>1/4</td><td>-1/8</td><td>0</td><td>1</td><td>0</td><td>9/8</td><td>9/8</td></tr>
@@ -73,6 +79,8 @@ F_{n}: 7540113804746346429
 <tr><td>6</td><td>9/4</td><td>1/8</td><td>-1/4</td><td>5/8</td><td>0</td><td>0</td><td>1</td><td>3/8</td><td>-5/8</td></tr>
 <td>  </td><td>0</td><td>-1</td><td>-1</td><td>-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
 </table>
+
+**5/4 3/4 9/4 0 0**
 
 <table>
 <tr><td>1</td><td>5/4</td><td>1</td><td>0</td><td>0</td><td>11/8</td><td>19/8</td></tr>
