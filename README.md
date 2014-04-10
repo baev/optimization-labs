@@ -46,6 +46,13 @@ F_{n}: 7540113804746346429
 
 **Вариант 2**
 
+**A =** 
+<table>
+<tr><td>−1</td> <td>3</td> <td>0</td> <td>2</td> <td>1</td></tr>
+<tr><td>2</td> <td>−1</td> <td>1</td> <td>2</td> <td>3</td></tr>
+<tr><td>1</td> <td>−1</td> <td>2</td> <td>1</td> <td>0</td></tr>
+</table>
+
 <table>
 <tr><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>-1</td><td>3</td><td>0</td><td>2</td><td>1</td></tr>
 <tr><td>2</td><td>4</td><td>0</td><td>1</td><td>0</td><td>2</td><td>-1</td><td>1</td><td>2</td><td>3</td></tr>
