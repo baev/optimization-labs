@@ -141,3 +141,16 @@ S = 120 * 1 + 10 * 4 + 220 * 2 + 50 * 6 + 10 * 1 + 70 * 2 + 80 * 0 = 1050 ден
 
 <table border="0" cellpadding="3" cellspacing="0" class="body_txt"><tbody><tr><td colspan="3">Потенциалы задействованных маршрутов</td></tr><tr><td> A<sub>3</sub>B<sub>3</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>3</sub> + u<sub>3</sub>  = 1   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>3</sub>  = 1 - 0 = 1 </td></tr><tr><td> A<sub>3</sub>B<sub>4</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>4</sub> + u<sub>3</sub>  = 2   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>4</sub>  = 2 - 0 = 2 </td></tr><tr><td> A<sub>3</sub>B<sub>5</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>5</sub> + u<sub>3</sub>  = 0   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>5</sub>  = 0 - 0 = 0 </td></tr><tr><td> A<sub>2</sub>B<sub>3</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>3</sub> + u<sub>2</sub>  = 6   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   u<sub>2</sub>  = 6 - 1 = 5</td></tr><tr><td> A<sub>2</sub>B<sub>1</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>1</sub> + u<sub>2</sub>  = 4   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>1</sub>  = 4 - 5 = -1 </td></tr><tr><td> A<sub>2</sub>B<sub>2</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>2</sub> + u<sub>2</sub>  = 2   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>2</sub>  = 2 - 5 = -3 </td></tr><tr><td> A<sub>1</sub>B<sub>1</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>1</sub> + u<sub>1</sub>  = 1   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   u<sub>1</sub>  = 1 - (  -1 ) = 2</td></tr></tbody></table>
 
+
+<table border="0" cellpadding="3" cellspacing="0" class="body_txt">
+<tbody>
+<tr><td colspan="3">Потенциалы незадействованных маршрутов</td></tr>
+<tr><td>A<sub>1</sub>B<sub>2</sub></td><td>&Delta;<sub>1</sub><sub>2</sub>  = 7 - ( 2 + (  -3 ) )  = 8</td></tr>
+<tr><td>A<sub>1</sub>B<sub>3</sub></td><td>&Delta;<sub>1</sub><sub>3</sub>  = 9 - ( 2 + 1 )  = 6</td></tr>
+<tr><td>A<sub>1</sub>B<sub>5</sub></td><td>&Delta;<sub>1</sub><sub>5</sub>  = 0 - ( 2 + 0 )  = -2</td></tr>
+<tr><td>A<sub>2</sub>B<sub>4</sub></td><td>&Delta;<sub>2</sub><sub>4</sub>  = 7 - ( 5 + 2 )  = 0</td></tr>
+<tr><td>A<sub>2</sub>B<sub>5</sub></td><td>&Delta;<sub>2</sub><sub>5</sub>  = 0 - ( 5 + 0 )  = -5</td></tr>
+<tr><td>A<sub>3</sub>B<sub>1</sub></td><td>&Delta;<sub>3</sub><sub>1</sub>  = 2 - ( 0 + (  -1 ) )  = 3</td></tr>
+<tr><td>A<sub>3</sub>B<sub>2</sub></td><td>&Delta;<sub>3</sub><sub>2</sub>  = 8 - ( 0 + (  -3 ) )  = 11</td></tr>
+</tbody>
+</table>
