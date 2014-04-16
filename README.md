@@ -99,7 +99,7 @@ F<sub>n</sub>: 7540113804746346429
 ## Лабораторная работа №3
 *Решениe транспортной задачи*
 
-### Метод северо-западного угла 
+### Первое решение. Метод северо-западного угла 
 
 <table border="0" cellpadding="2" cellspacing="2" class="body_txt">
         <tbody><tr><td height="15" align="middle" valign="middle" rowspan="2"> Поставщик </td>
@@ -129,4 +129,15 @@ S = 120 * 1 + 10 * 4 + 220 * 2 + 50 * 6 + 10 * 1 + 70 * 2 + 80 * 0 = 1050 ден
 
 Чтобы проверить, является ли решение оптимальным, количество задействованных маршрутов должно быть не больше (rows + col - 1) = 5 + 3 - 1 = 7 :+1: 
 
+### Метод потенциалов
+
+Найдем потенциалы поставщиков и покупателей:
+
+* Для задействованного маршрута, сумма потенциала поставщика и потребителя равна тарифу задействованного маршрута.
+* Оценка незадействованного маршрута = тариф маршрута - ( потенциал поставщика + потенциал потребителя ).
+
+
+#### Шаг 1
+
+<table border="0" cellpadding="3" cellspacing="0" class="body_txt"><tbody><tr><td colspan="3">Потенциалы задействованных маршрутов</td></tr><tr><td> A<sub>3</sub>B<sub>3</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>3</sub> + u<sub>3</sub>  = 1   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>3</sub>  = 1 - 0 = 1 </td></tr><tr><td> A<sub>3</sub>B<sub>4</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>4</sub> + u<sub>3</sub>  = 2   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>4</sub>  = 2 - 0 = 2 </td></tr><tr><td> A<sub>3</sub>B<sub>5</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>5</sub> + u<sub>3</sub>  = 0   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>5</sub>  = 0 - 0 = 0 </td></tr><tr><td> A<sub>2</sub>B<sub>3</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>3</sub> + u<sub>2</sub>  = 6   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   u<sub>2</sub>  = 6 - 1 = 5</td></tr><tr><td> A<sub>2</sub>B<sub>1</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>1</sub> + u<sub>2</sub>  = 4   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>1</sub>  = 4 - 5 = -1 </td></tr><tr><td> A<sub>2</sub>B<sub>2</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>2</sub> + u<sub>2</sub>  = 2   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   v<sub>2</sub>  = 2 - 5 = -3 </td></tr><tr><td> A<sub>1</sub>B<sub>1</sub> : &nbsp;  &nbsp; </td><td align="left"> &nbsp; &nbsp;  v<sub>1</sub> + u<sub>1</sub>  = 1   &nbsp; &nbsp; </td><td align="left">  &nbsp; &nbsp;   u<sub>1</sub>  = 1 - (  -1 ) = 2</td></tr></tbody></table>
 
