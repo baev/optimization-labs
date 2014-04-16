@@ -172,6 +172,88 @@ A<sub>3</sub> | B<sub>3</sub> | min = { 160 , 10 } = 10
 A<sub>3</sub> | B<sub>4</sub> | min = { 150 , 70 } = 70
 A<sub>3</sub> | B<sub>5</sub> | 80
 
+<table>
+    <tbody>
+        <tr>
+            <td width="80" align="center" valign="middle" rowspan="2">Поставщик</td>
+            <td align="center" valign="middle" colspan="5">Потребитель</td>
+            <td width="60" align="center" valign="middle" rowspan="2">Запас</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">B <sub>1</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>2</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>3</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>4</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>5</sub> 
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>1</sub> 
+            </td>
+            <td align="center" valign="middle">
+               <strong> 120</strong>         
+            </td>
+            <td align="center" valign="middle">  
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>2</sub> 
+            </td>
+            <td align="center" valign="middle">
+                <strong> 10</strong> 
+            </td>
+            <td align="center" valign="middle">
+                <strong> 220</strong> 
+            </td>
+            <td align="center" valign="middle">
+                <strong> 50</strong> 
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>3</sub> 
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+                <strong> 10</strong>
+            </td>
+            <td align="center" valign="middle">
+                <strong> 70</strong>
+            </td>
+            <td align="center" valign="middle">
+                <strong> 80</strong> 
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td height="25" align="center" valign="middle">Потребность</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
+
 Стоимость доставки продукции, для начального решения, не сложно посчитать.
 S = 120 * 1 + 10 * 4 + 220 * 2 + 50 * 6 + 10 * 1 + 70 * 2 + 80 * 0 = 1050 ден. ед.
 
@@ -277,5 +359,12 @@ S = 120 * 1 + 10 * 4 + 220 * 2 + 50 * 6 + 10 * 1 + 70 * 2 + 80 * 0 = 1050 ден
 Здесь два незадействованных маршрута с отрицательными потенциалами. A<sub>1</sub>B<sub>5</sub> и A<sub>2</sub>B<sub>5</sub>
 
 Задействуем A<sub>2</sub>B<sub>5</sub>
+
+Пусть ячейка A<sub>2</sub>B<sub>5</sub>, для которой мы строили цикл, имеет порядковый номер один.
+Среди ячеек цикла, номера которых четные, найдем ячейку обладающую наименьшим значением.
+min = { 50, 80 } = 50.
+
+От ячеек цикла с четными номерами отнимает 50. К ячейкам с нечетными номерами прибавляем 50.
+
 
 
