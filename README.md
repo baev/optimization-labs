@@ -561,7 +561,7 @@ S = 1050 + &Delta;<sub>25</sub> * 50 = 1050 - 5 * 50 = 800 ден. ед.
                 220
             </td>
             <td align="center" valign="middle">
-                0
+                
             </td>
             <td align="center" valign="middle">
             </td>
@@ -647,13 +647,13 @@ S = 800 + &Delta;<sub>31</sub> * 10 = 800 - 2 * 10 = 780 ден. ед.
             <td align="center" valign="middle">A <sub>2</sub> 
             </td>
             <td align="center" valign="middle">
-                0
+                
             </td>
             <td align="center" valign="middle">
                 220
             </td>
             <td align="center" valign="middle">
-                0
+                
             </td>
             <td align="center" valign="middle">
             </td>
