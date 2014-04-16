@@ -449,6 +449,8 @@ min = { 50, 80 } = 50.
     </tbody>
 </table>
 
+S = 1050 + &Delta;<sub>25</sub> * 50 = 1050 - 5 * 50 = 800 ден. ед.
+
 #### Шаг 2
 
 <table border="0" cellpadding="3" cellspacing="0" class="body_txt">
@@ -595,3 +597,97 @@ min = { 50, 80 } = 50.
         </tr>
     </tbody>
 </table>
+
+S = 800 + &Delta;<sub>31</sub> * 10 = 800 - 2 * 10 = 780 ден. ед.
+
+#### Шаг 3
+
+Тут потенциалы всех незадействованных маршрутов неотрицательны.
+
+### Ответ
+
+<table>
+    <tbody>
+        <tr>
+            <td width="80" align="center" valign="middle" rowspan="2">Поставщик</td>
+            <td align="center" valign="middle" colspan="5">Потребитель</td>
+            <td width="60" align="center" valign="middle" rowspan="2">Запас</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">B <sub>1</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>2</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>3</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>4</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>5</sub> 
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>1</sub> 
+            </td>
+            <td align="center" valign="middle">
+              120       
+            </td>
+            <td align="center" valign="middle">  
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>2</sub> 
+            </td>
+            <td align="center" valign="middle">
+                0
+            </td>
+            <td align="center" valign="middle">
+                220
+            </td>
+            <td align="center" valign="middle">
+                0
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+               60
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>3</sub> 
+            </td>
+            <td align="center" valign="middle">
+            10
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+                60
+            </td>
+            <td align="center" valign="middle">
+                70
+            </td>
+            <td align="center" valign="middle">
+                20
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td height="25" align="center" valign="middle">Потребность</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
+
+## S = = 780 ден. ед.
