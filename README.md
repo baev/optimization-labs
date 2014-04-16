@@ -694,4 +694,18 @@ S = 800 + &Delta;<sub>31</sub> * 10 = 800 - 2 * 10 = 780 ден. ед.
 
 **Вариант 2**
 
-#### f(x) = (y - x<sup>2</sup>)<sup>2</sup> + 100 (1 - x)<sup>2</sup>;
+f(x, y) = (y - x<sup>2</sup>)<sup>2</sup> + 100 (1 - x)<sup>2</sup>
+
+f<sub>x</sub>(x, y) = -4 (y - x<sup>2</sup>)x - 200 (1 - x)
+
+f<sub>y</sub>(x, y) = 2 (y -x<sup>2</sup>)
+
+f<sub>xx</sub>(x, y) = -4 (y - x<sup>2</sup>) + 8 x<sup>2</sup> + 200
+
+f<sub>xy</sub>(x, y) = -4 x
+
+f<sub>yy</sub>(x, y) = 2
+
+x<sub>0</sub> = -4
+
+y<sub>0</sub> = 6
