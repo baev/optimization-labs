@@ -509,3 +509,89 @@ min = { 50, 80 } = 50.
         <tr><td>A<sub>3</sub>B<sub>2</sub></td><td>&Delta;<sub>3</sub><sub>2</sub>  = 8 - ( 0 + 2 )  = 6</td></tr>
     </tbody>
 </table>
+
+Здесь только один незадействованный маршрут с отрицательным потенциалом - A<sub>3</sub>B<sub>1</sub>
+
+<table>
+    <tbody>
+        <tr>
+            <td width="80" align="center" valign="middle" rowspan="2">Поставщик</td>
+            <td align="center" valign="middle" colspan="5">Потребитель</td>
+            <td width="60" align="center" valign="middle" rowspan="2">Запас</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">B <sub>1</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>2</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>3</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>4</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>5</sub> 
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>1</sub> 
+            </td>
+            <td align="center" valign="middle">
+              120       
+            </td>
+            <td align="center" valign="middle">  
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>2</sub> 
+            </td>
+            <td align="center" valign="middle">
+                <strong>0</strong> 
+            </td>
+            <td align="center" valign="middle">
+                220
+            </td>
+            <td align="center" valign="middle">
+                0
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+                <strong>60</strong> 
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>3</sub> 
+            </td>
+            <td align="center" valign="middle">
+            <strong>10</strong> 
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+                60
+            </td>
+            <td align="center" valign="middle">
+                70
+            </td>
+            <td align="center" valign="middle">
+                <strong> 20</strong> 
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td height="25" align="center" valign="middle">Потребность</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
