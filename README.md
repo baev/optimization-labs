@@ -366,5 +366,86 @@ min = { 50, 80 } = 50.
 
 От ячеек цикла с четными номерами отнимает 50. К ячейкам с нечетными номерами прибавляем 50.
 
-
+<table>
+    <tbody>
+        <tr>
+            <td width="80" align="center" valign="middle" rowspan="2">Поставщик</td>
+            <td align="center" valign="middle" colspan="5">Потребитель</td>
+            <td width="60" align="center" valign="middle" rowspan="2">Запас</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">B <sub>1</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>2</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>3</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>4</sub> 
+            </td>
+            <td align="center" valign="middle">B <sub>5</sub> 
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>1</sub> 
+            </td>
+            <td align="center" valign="middle">
+              120       
+            </td>
+            <td align="center" valign="middle">  
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>2</sub> 
+            </td>
+            <td align="center" valign="middle">
+                10
+            </td>
+            <td align="center" valign="middle">
+                220
+            </td>
+            <td align="center" valign="middle">
+                <strong>0</strong> 
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+                <strong>50</strong> 
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">A <sub>3</sub> 
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+            </td>
+            <td align="center" valign="middle">
+                <strong> 60</strong>
+            </td>
+            <td align="center" valign="middle">
+                70
+            </td>
+            <td align="center" valign="middle">
+                <strong> 30</strong> 
+            </td>
+            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+        </tr>
+        <tr>
+            <td height="25" align="center" valign="middle">Потребность</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
 
