@@ -611,7 +611,7 @@ S = 800 + &Delta;<sub>31</sub> * 10 = 800 - 2 * 10 = 780 ден. ед.
         <tr>
             <td width="80" align="center" valign="middle" rowspan="2">Поставщик</td>
             <td align="center" valign="middle" colspan="5">Потребитель</td>
-            <td width="60" align="center" valign="middle" rowspan="2">Запас</td>
+            
         </tr>
         <tr>
             <td align="center" valign="middle">B <sub>1</sub> 
@@ -639,7 +639,7 @@ S = 800 + &Delta;<sub>31</sub> * 10 = 800 - 2 * 10 = 780 ден. ед.
             </td>
             <td align="center" valign="middle">
             </td>
-            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+            
         </tr>
         <tr>
             <td align="center" valign="middle">A <sub>2</sub> 
@@ -658,7 +658,7 @@ S = 800 + &Delta;<sub>31</sub> * 10 = 800 - 2 * 10 = 780 ден. ед.
             <td align="center" valign="middle">
                60
             </td>
-            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+           
         </tr>
         <tr>
             <td align="center" valign="middle">A <sub>3</sub> 
@@ -677,16 +677,9 @@ S = 800 + &Delta;<sub>31</sub> * 10 = 800 - 2 * 10 = 780 ден. ед.
             <td align="center" valign="middle">
                 20
             </td>
-            <td width="60" align="center" valign="middle">&nbsp; 0</td>
+            
         </tr>
-        <tr>
-            <td height="25" align="center" valign="middle">Потребность</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-        </tr>
+        
     </tbody>
 </table>
 
