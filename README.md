@@ -27,11 +27,11 @@ f(x) = cos(x), x in [0, pi]
 
 n: 91
 
-F_{n-2}: 2880067194370816120
+F<sub>n-2</sub>: 2880067194370816120
 
-F_{n-1}: 4660046610375530309
+F<sub>n-1</sub>: 4660046610375530309
 
-F_{n}: 7540113804746346429
+F<sub>n</sub>: 7540113804746346429
 
 **Epsilon** | **x** | **f(x)** | **iterations**
 --- | --- | --- | ---
@@ -95,3 +95,34 @@ F_{n}: 7540113804746346429
 <tr><td>3</td><td>9/4</td><td>0</td><td>0</td><td>1</td><td>3/8</td><td>-5/8</td></tr>
 <tr><td>  </td><td>-23/4</td><td>0</td><td>0</td><td>0</td><td>-57/8</td><td>-41/8</td></tr>
 </table>
+
+## Лабораторная работа №3
+*Решениe транспортной задачи*
+
+### Метод северо-западного угла 
+
+<table border="0" cellpadding="2" cellspacing="2" class="body_txt">
+        <tbody><tr><td height="15" align="middle" valign="middle" rowspan="2"> Поставщик </td>
+            <td height="15" align="middle" valign="middle" colspan="4"> Потребитель </td>
+            <td width="60" height="15" align="middle" valign="middle" rowspan="2"> Запас</td></tr><tr> <td width="60" height="15" align="middle" valign="middle"> B <sub>1</sub> </td><td width="60" height="15" align="middle" valign="middle"> B <sub>2</sub> </td><td width="60" height="15" align="middle" valign="middle"> B <sub>3</sub> </td><td width="60" height="15" align="middle" valign="middle"> B <sub>4</sub> </td></tr><tr><td width="70" height="15" align="middle" valign="middle"> A <sub>1</sub> </td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 1</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 7</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 9</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 5</td><td width="60" height="15" bgcolor="d4d0c8" align="middle" valign="middle">120</td></tr><tr><td width="70" height="15" align="middle" valign="middle"> A <sub>2</sub> </td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 4</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 2</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 6</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 7</td><td width="60" height="15" bgcolor="d4d0c8" align="middle" valign="middle">280</td></tr><tr><td width="70" height="15" align="middle" valign="middle"> A <sub>3</sub> </td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 2</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 8</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 1</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 2</td><td width="60" height="15" bgcolor="d4d0c8" align="middle" valign="middle">160</td></tr><tr><td height="15" align="middle" valign="middle"> Потребность </td><td height="15" align="middle" bgcolor="d4d0c8" valign="middle">130 </td><td height="15" align="middle" bgcolor="d4d0c8" valign="middle">220 </td><td height="15" align="middle" bgcolor="d4d0c8" valign="middle">60 </td><td height="15" align="middle" bgcolor="d4d0c8" valign="middle">70 </td></tr>
+               </tbody></table>
+
+Суммарные запасы продукции у поставщиков должны равняться суммарной потребности потребителей.
+
+Разница в 80 единиц продукции.
+Введем в рассмотрение фиктивного потребителя B<sub>5</sub>, с потребностью 80 единиц продукции.
+
+Стоимость доставки единицы продукции от всех поставщиков к потребителю B<sub>5</sub> примем равной нулю.
+
+Откуда | Кому | Сколько
+--- | --- | --- | ---
+A<sub>1</sub> | B<sub>1</sub> | min = { 120 , 130 } = 120
+A<sub>2</sub> | B<sub>1</sub> | min = { 280 , 10 } = 10
+A<sub>2</sub> | B<sub>2</sub> | min = { 270 , 220 } = 220
+A<sub>2</sub> | B<sub>3</sub> | min = { 50 , 60 } = 50
+A<sub>3</sub> | B<sub>3</sub> | min = { 160 , 10 } = 10
+A<sub>3</sub> | B<sub>4</sub> | min = { 150 , 70 } = 70
+A<sub>3</sub> | B<sub>5</sub> | 80
+
+Стоимость доставки продукции, для начального решения, не сложно посчитать.
+S = 120 * 1 + 10 * 4 + 220 * 2 + 50 * 6 + 10 * 1 + 70 * 2 + 80 * 0 = 1050 ден. ед.
