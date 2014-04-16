@@ -102,10 +102,58 @@ F<sub>n</sub>: 7540113804746346429
 ### Первое решение. Метод северо-западного угла 
 
 <table border="0" cellpadding="2" cellspacing="2" class="body_txt">
-        <tbody><tr><td height="15" align="middle" valign="middle" rowspan="2"> Поставщик </td>
-            <td height="15" align="middle" valign="middle" colspan="4"> Потребитель </td>
-            <td width="60" height="15" align="middle" valign="middle" rowspan="2"> Запас</td></tr><tr> <td width="60" height="15" align="middle" valign="middle"> B<sub>1</sub> </td><td width="60" height="15" align="middle" valign="middle"> B<sub>2</sub> </td><td width="60" height="15" align="middle" valign="middle"> B<sub>3</sub> </td><td width="60" height="15" align="middle" valign="middle"> B<sub>4</sub> </td></tr><tr><td width="70" height="15" align="middle" valign="middle"> A<sub>1</sub> </td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 1</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 7</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 9</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 5</td><td width="60" height="15" bgcolor="d4d0c8" align="middle" vaslign="middle">120</td></tr><tr><td width="70" height="15" align="middle" valign="middle"> A<sub>2</sub> </td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 4</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 2</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 6</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 7</td><td width="60" height="15" bgcolor="d4d0c8" align="middle" valign="middle">280</td></tr><tr><td width="70" height="15" align="middle" valign="middle"> A<sub>3</sub> </td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 2</td><td height="15" bgcolor="e44e4" align="middle" valign="middle"> 8</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 1</td><td height="15" bgcolor="e4e4e4" align="middle" valign="middle"> 2</td><td width="60" height="15" bgcolor="d4d0c8" align="middle" valign="middle">160</td></tr><tr><td height="15" align="middle" valign="middle"> Потребность </td><td height="15" align="middle" bgcolor="d4d0c8" valign="middle">130 </td><td height="15" align="middle" bgcolor="d4d0c8" valign="middle">220 </td><td height="15" align="middle" bgcolor="d4d0c8" valign="middle">60 </td><td height="15" align="middle" bgcolor="d4d0c8" valign="middle">70 </td></tr>
-               </tbody></table>
+    <tbody>
+        <tr>
+            <td height="15" align="middle" valign="middle" rowspan="2">Поставщик</td>
+            <td height="15" align="middle" valign="middle" colspan="4">Потребитель</td>
+            <td width="60" height="15" align="middle" valign="middle" rowspan="2">Запас</td>
+        </tr>
+        <tr>
+            <td width="60" height="15" align="middle" valign="middle">B<sub>1</sub> 
+            </td>
+            <td width="60" height="15" align="middle" valign="middle">B<sub>2</sub> 
+            </td>
+            <td width="60" height="15" align="middle" valign="middle">B<sub>3</sub> 
+            </td>
+            <td width="60" height="15" align="middle" valign="middle">B<sub>4</sub> 
+            </td>
+        </tr>
+        <tr>
+            <td width="70" height="15" align="middle" valign="middle">A<sub>1</sub> 
+            </td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">1</td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">7</td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">9</td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">5</td>
+            <td width="60" height="15" bgcolor="d4d0c8" align="middle" vaslign="middle">120</td>
+        </tr>
+        <tr>
+            <td width="70" height="15" align="middle" valign="middle">A<sub>2</sub></td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">4</td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">2</td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">6</td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">7</td>
+            <td width="60" height="15" bgcolor="d4d0c8" align="middle" valign="middle">280</td>
+        </tr>
+        <tr>
+            <td width="70" height="15" align="middle" valign="middle">A<sub>3</sub> 
+            </td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">2</td>
+            <td height="15" bgcolor="e44e4" align="middle" valign="middle">8</td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">1</td>
+            <td height="15" bgcolor="e4e4e4" align="middle" valign="middle">2</td>
+            <td width="60" height="15" bgcolor="d4d0c8" align="middle" valign="middle">160</td>
+        </tr>
+        <tr>
+            <td height="15" align="middle" valign="middle">Потребность</td>
+            <td height="15" align="middle" bgcolor="d4d0c8" valign="middle">130</td>
+            <td height="15" align="middle" bgcolor="d4d0c8" valign="middle">220</td>
+            <td height="15" align="middle" bgcolor="d4d0c8" valign="middle">60</td>
+            <td height="15" align="middle" bgcolor="d4d0c8" valign="middle">70</td>
+        </tr>
+    </tbody>
+</table>
+
 
 Суммарные запасы продукции у поставщиков должны равняться суммарной потребности потребителей.
 
