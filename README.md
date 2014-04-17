@@ -65,7 +65,7 @@ F<sub>n</sub>: 7540113804746346429
 **k = 4, s = 2**
 
 <table>
-<tr><td>5</td><td>6/5</td><td>2/5</td><td>1/5</td><td>0</td><td>0</td><td>1</td><td>1/5</td><td>6/5</td><td>1</td></tr>
+<tr><td>1</td><td>6/5</td><td>2/5</td><td>1/5</td><td>0</td><td>0</td><td>1</td><td>1/5</td><td>6/5</td><td>1</td></tr>
 <tr><td>4</td><td>13/5</td><td>1/5</td><td>3/5</td><td>0</td><td>1</td><td>0</td><td>3/5</td><td>8/5</td><td>2</td></tr>
 <tr><td>3</td><td>18/5</td><td>1/5</td><td>-2/5</td><td>1</td><td>0</td><td>0</td><td>8/5</td><td>3/5</td><td>-1</td></tr>
 <td>  </td><td>18/5</td><td>-4/5</td><td>-7/5</td><td>0</td><td>0</td><td>0</td><td>8/5</td><td>3/5</td><td>-1</td>
